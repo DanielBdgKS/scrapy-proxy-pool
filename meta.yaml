@@ -31,7 +31,7 @@ about:
   summary: {{ setup.get('description') }}
   home: https://github.com/MarkusFraKS/{{ name }}/releases/tag/v{{ setup.get('version') }}
   doc_url: {{ setup.get('url') }}
-  dev_url: https://github.com/MarkusFraKS/{{ name }}
+  dev_url: https://github.com/MarkusFraKS/{{ name }}/tree/conda_pkg
 
 test:
   imports:
