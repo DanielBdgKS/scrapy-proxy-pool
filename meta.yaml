@@ -1,5 +1,5 @@
 {% set setup = load_setup_py_data() %}
-{% set name = 'scrapy-proxy-pool' %}
+{% set name = 'scrapy_proxy_pool' %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ source:
   path: .
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
