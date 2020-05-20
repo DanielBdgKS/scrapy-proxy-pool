@@ -19,6 +19,7 @@ setup(
     author='Neal Wong',
     author_email='qwang16@olivetuniversity.edu',
     license='MIT',
+    license_file='LICENSE',
     long_description=get_long_description(),
     description="Simple scrapy proxy pool",
     url='https://github.com/hyan15/scrapy-proxy-pool',
